@@ -800,6 +800,12 @@ export default function Home() {
                         >
                             My campus
                         </motion.p>
+                        <motion.p
+                            className="text-base md:text-lg text-[#9A8A86] font-light"
+                            whileHover={{ scale: 1.02 }}
+                        >
+                            לח"י 21, בני ברק
+                        </motion.p>
                     </motion.div>
                 </motion.div>
             </section>
