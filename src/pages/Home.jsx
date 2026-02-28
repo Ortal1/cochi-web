@@ -257,7 +257,7 @@ export default function Home() {
                         className="text-4xl sm:text-5xl md:text-8xl font-light mb-6 md:mb-8 leading-tight"
                     >
                         <span className="bg-gradient-to-l from-[#C4A4A0] via-[#8B7B77] to-[#A8B5A0] bg-clip-text text-transparent">
-                            יצירת זוגיות
+                           ״באה מאהבה״
                         </span>
                     </motion.h1>
 
@@ -273,7 +273,7 @@ export default function Home() {
                                 ease: "easeInOut"
                             }}
                         >
-                            תכנית בת 8 מפגשים לפריצת דרך בזוגיות
+                            תכנית בת 8 מפגשים לפריצות דרך בזוגיות 
                         </motion.p>
                     </motion.div>
 
@@ -353,13 +353,13 @@ export default function Home() {
                             אהבה וזוגיות  זו דרך להיות.
                         </motion.p>
                         <motion.p whileHover={{ scale: 1.02 }}>
-                            אם תחשבו לרגע על כמות הספרים והסרטים שנכתבו ונוצרו על אהבה,
+                            אם נחשוב לרגע, על כמות הספרים והסרטים שנכתבו ונוצרו על אהבה,
                         </motion.p>
                         <motion.p whileHover={{ scale: 1.02 }}>
-                            זו כמות בלתי נתפשת.
+                            זו הרי כמות בלתי נתפשת!
                         </motion.p>
                         <motion.p whileHover={{ scale: 1.02 }}>
-                            זו כמיהה ראשונית ,בסיסית ומשותפת לכולנו, להיות אוהבים ונאהבים ותחושת החסר עמוקה מאד וקשה מאד, כאשר אדם חווה בדידות.
+                            זוהי  הכמיהה הראשונית ,הבסיסית והמשותפת לכולנו, להיות <span className="font-medium text-[#8B7B77]">אוהבים ונאהבים</span> ותחושת החסר עמוקה מאד וקשה מאד, כאשר אדם חווה בדידות.
                         </motion.p>
                         <motion.p whileHover={{ scale: 1.02 }}>
                             לכן ,כאשר החיבור הזוגי מתממש ,כמו קסם, מתגבשים כמעט מיד, רצון ומחויבות לשמור עליו מכל משמר, כעל אוצר נדיר.
@@ -368,8 +368,33 @@ export default function Home() {
                             אנשים רבים כל כך, דרכים רבות כל כך, לבטא את הרצון העז בקשר של אהבה.
                         </motion.p>
                         <motion.p whileHover={{ scale: 1.02 }}>
-                            וזה לא תמיד פשוט וזה מסע שמפגיש אותנו , כמעט אוטומטית, עם הפחדים העמוקים ביותר שלנו ובמסע הזה, יש רגעי חסד.
+                            וזה לא תמיד פשוט.
                         </motion.p>
+                        <motion.p whileHover={{ scale: 1.02 }}>
+                            זה מסע שמפגיש אותנו , כמעט אוטומטית, עם הפחדים העמוקים ביותר שלנו ובמסע הזה, יש <span className="font-medium text-[#C4A4A0]">רגעי חסד</span>.
+                        </motion.p>
+                        <motion.p whileHover={{ scale: 1.02 }}>
+                            הנחת העבודה שלי היא שמימוש מתאפשר מתוך הכרות.
+                        </motion.p>
+                        <motion.p whileHover={{ scale: 1.02 }}>
+                            ככל שאתם מכירים משהו, כך מתרחבת האפשרות לשינוי.
+                        </motion.p>
+                        <motion.p whileHover={{ scale: 1.02 }}>
+                            כולנו יודעים את עצמנו, אבל ידע לא מביא לשינוי.
+                        </motion.p>
+                        <motion.p
+                            className="text-xl md:text-2xl font-light text-center text-[#C4A4A0] pt-2"
+                            whileHover={{ scale: 1.05 }}
+                        >
+                            הכרות כן.
+                        </motion.p>
+                        <motion.p
+                            className="text-center text-xl md:text-3xl font-light mb-6 md:mb-10 text-[#C4A4A0]"
+                            whileHover={{ scale: 1.02 }}
+                        >
+                            אני מזמינה אתכם באהבה לבוא לתכנית ליצירת זוגיות.
+                        </motion.p>
+
 
                         <div className="py-6">
                             <motion.div
@@ -409,54 +434,6 @@ export default function Home() {
                 </motion.div>
             </section>
 
-            {/* Invitation Section */}
-            <section className="py-12 md:py-24 px-4 md:px-6 bg-gradient-to-b from-white/30 to-transparent relative overflow-hidden">
-                <motion.div
-                    className="absolute top-0 right-0 w-96 h-96 bg-[#A8B5A0]/5 rounded-full blur-3xl"
-                    animate={{
-                        x: [0, 50, 0],
-                        y: [0, -30, 0],
-                    }}
-                    transition={{
-                        duration: 12,
-                        repeat: Infinity,
-                        ease: "easeInOut"
-                    }}
-                />
-
-                <motion.div
-                    className="max-w-3xl mx-auto relative z-10"
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{ once: true, margin: "-50px" }}
-                    variants={stagger}
-                >
-                    <motion.div variants={fadeInUp} className="space-y-4 md:space-y-6 text-base md:text-xl leading-relaxed text-[#5A5550]">
-                        <motion.p
-                            className="text-center text-xl md:text-3xl font-light mb-6 md:mb-10 text-[#C4A4A0]"
-                            whileHover={{ scale: 1.02 }}
-                        >
-                            אני מזמינה אתכם להשתתף בתכנית ליצירת זוגיות .
-                        </motion.p>
-
-                        <motion.p whileHover={{ scale: 1.02 }}>
-                            הנחת העבודה שלי היא שמימוש מתאפשר מתוך הכרות.
-                        </motion.p>
-                        <motion.p whileHover={{ scale: 1.02 }}>
-                            ככל שאתם מכירים משהו, כך מתרחבת האפשרות לשינוי.
-                        </motion.p>
-                        <motion.p whileHover={{ scale: 1.02 }}>
-                            כולנו יודעים את עצמנו, אבל ידע לא מביא לשינוי.
-                        </motion.p>
-                        <motion.p
-                            className="text-xl md:text-2xl font-light text-center text-[#C4A4A0]"
-                            whileHover={{ scale: 1.05 }}
-                        >
-                            הכרות כן.
-                        </motion.p>
-                    </motion.div>
-                </motion.div>
-            </section>
 
             {/* Program Content Section */}
             <section className="py-12 md:py-24 px-4 md:px-6 relative">
@@ -498,7 +475,7 @@ export default function Home() {
                             },
                             {
                                 icon: Heart,
-                                text: "תכירו את מודל הרצון מול הפחד שפיתחתי, כמפתח ליצירת זוגיות.",
+                                text: "תכירו את מודל הרצון מול הפחד שפיתחתי (DVF), כמפתח ליצירת זוגיות.",
                                 color: "from-[#C4A4A0] to-[#A8B5A0]"
                             },
                             {
@@ -670,64 +647,81 @@ export default function Home() {
                         />
                     </motion.div>
 
-                    <motion.div variants={fadeInUp} className="space-y-6">
-                        {[
-                            {
-                                icon: TrendingUp,
-                                text: "מובילה תהליכי טרנספורמציה והתפתחות למעלה מ20 שנה.",
-                                color: "from-[#C4A4A0] to-[#B39490]"
-                            },
-                            {
-                                icon: Star,
-                                text: "כ40000 שעות אימון, אחד על אחד ,חלק ניכר מהן בתחום של זוגיות ומערכות יחסים.",
-                                color: "from-[#A8B5A0] to-[#98A590]"
-                            },
-                            {
-                                icon: Award,
-                                text: "מנטורית בכירה למאמנים בתחילת דרכם",
-                                color: "from-[#C4A4A0] to-[#A8B5A0]"
-                            },
-                            {
-                                icon: Users,
-                                text: "מומחית לקשב עמוק ולשפת גוף.",
-                                color: "from-[#B39490] to-[#A8B5A0]"
-                            },
-                            {
-                                icon: Sparkles,
-                                text: "מפתחת מודל DOF לפריצות דרך.",
-                                color: "from-[#A8B5A0] to-[#C4A4A0]"
-                            },
-                        ].map((item, index) => {
-                            const Icon = item.icon;
-                            return (
-                                <motion.div
-                                    key={index}
-                                    variants={fadeInUp}
-                                    className="group"
-                                    whileHover={{ scale: 1.02 }}
-                                    transition={{ type: "spring", stiffness: 300 }}
-                                >
-                                    <Card className="flex items-start gap-3 md:gap-6 p-4 md:p-8 bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden relative">
-                                        <motion.div
-                                            className="absolute inset-0 bg-gradient-to-l opacity-0 group-hover:opacity-5 transition-opacity duration-500"
-                                            style={{
-                                                background: `linear-gradient(to left, ${item.color})`
-                                            }}
-                                        />
+                    <motion.div variants={fadeInUp} className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
+                        {/* Credentials list - right side (RTL) */}
+                        <div className="space-y-4 flex-1 order-2 md:order-1">
+                            {[
+                                {
+                                    icon: TrendingUp,
+                                    text: "מובילה תהליכי טרנספורמציה והתפתחות למעלה מ-20 שנה.",
+                                    color: "from-[#C4A4A0] to-[#B39490]"
+                                },
+                                {
+                                    icon: Star,
+                                    text: "כ-40,000 שעות אימון, חלק ניכר מהן בתחום זוגיות ומערכות יחסים.",
+                                    color: "from-[#A8B5A0] to-[#98A590]"
+                                },
+                                {
+                                    icon: Award,
+                                    text: "מנטורית בכירה להתפתחות מקצועית באימון.",
+                                    color: "from-[#C4A4A0] to-[#A8B5A0]"
+                                },
+                                {
+                                    icon: Users,
+                                    text: "מומחית לקשב עמוק ולשפת גוף.",
+                                    color: "from-[#B39490] to-[#A8B5A0]"
+                                },
+                                {
+                                    icon: Sparkles,
+                                    text: "מפתחת מודל DVF לפריצות דרך.",
+                                    color: "from-[#A8B5A0] to-[#C4A4A0]"
+                                },
+                            ].map((item, index) => {
+                                const Icon = item.icon;
+                                return (
+                                    <motion.div
+                                        key={index}
+                                        variants={fadeInUp}
+                                        className="group"
+                                        whileHover={{ scale: 1.02 }}
+                                        transition={{ type: "spring", stiffness: 300 }}
+                                    >
+                                        <Card className="flex items-start gap-3 md:gap-4 p-3 md:p-5 bg-white/80 backdrop-blur-sm border-0 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden relative">
+                                            <motion.div
+                                                className="absolute inset-0 bg-gradient-to-l opacity-0 group-hover:opacity-5 transition-opacity duration-500"
+                                                style={{
+                                                    background: `linear-gradient(to left, ${item.color})`
+                                                }}
+                                            />
 
-                                        <motion.div
-                                            className={`w-10 h-10 md:w-16 md:h-16 rounded-xl md:rounded-2xl bg-gradient-to-br ${item.color} flex items-center justify-center flex-shrink-0 shadow-lg relative z-10`}
-                                            whileHover={{ rotate: 360 }}
-                                            transition={{ duration: 0.6 }}
-                                        >
-                                            <Icon className="w-5 h-5 md:w-7 md:h-7 text-white" />
-                                        </motion.div>
+                                            <motion.div
+                                                className={`w-8 h-8 md:w-10 md:h-10 rounded-lg md:rounded-xl bg-gradient-to-br ${item.color} flex items-center justify-center flex-shrink-0 shadow-lg relative z-10`}
+                                                whileHover={{ rotate: 360 }}
+                                                transition={{ duration: 0.6 }}
+                                            >
+                                                <Icon className="w-4 h-4 md:w-5 md:h-5 text-white" />
+                                            </motion.div>
 
-                                        <p className="text-[#5A5550] leading-relaxed text-sm md:text-lg pt-1 md:pt-3 relative z-10">{item.text}</p>
-                                    </Card>
-                                </motion.div>
-                            );
-                        })}
+                                            <p className="text-[#5A5550] leading-relaxed text-sm md:text-base pt-1 relative z-10">{item.text}</p>
+                                        </Card>
+                                    </motion.div>
+                                );
+                            })}
+                        </div>
+
+                        {/* Image - left side */}
+                        <div className="flex-shrink-0 mx-auto md:mx-0 order-1 md:order-2">
+                            <div className="relative">
+                                <div className="w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-2xl shadow-[#C4A4A0]/20 border-2 border-white/50">
+                                    <img
+                                        src="/cochi.jpg"
+                                        alt="כוכי כהן הדר"
+                                        className="w-full h-[180%] object-cover object-top"
+                                    />
+                                </div>
+                                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#C4A4A0]/10 to-[#A8B5A0]/10 pointer-events-none" />
+                            </div>
+                        </div>
                     </motion.div>
                 </motion.div>
             </section>
@@ -793,6 +787,18 @@ export default function Home() {
                             }}
                         >
                             18/5/26.
+                        </motion.p>
+                        <motion.p
+                            className="text-lg md:text-2xl text-[#7A706C] font-light"
+                            whileHover={{ scale: 1.02 }}
+                        >
+                            17:30-20:30
+                        </motion.p>
+                        <motion.p
+                            className="text-lg md:text-2xl text-[#7A706C] font-light"
+                            whileHover={{ scale: 1.02 }}
+                        >
+                            My campus
                         </motion.p>
                     </motion.div>
                 </motion.div>
