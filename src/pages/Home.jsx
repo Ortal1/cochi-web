@@ -245,8 +245,8 @@ export default function Home() {
                         >
                             תכנית בת 8 מפגשים לפריצות דרך בזוגיות
                         </motion.p>
-                        <p className="text-base sm:text-lg md:text-2xl font-light text-[#9A8A86] mt-3 md:mt-4 tracking-wide">
-                            בהנחיית כוכי כהן הדר
+                        <p className="text-base sm:text-lg md:text-xl font-light text-[#9A8A86] mt-3 md:mt-4 tracking-wide">
+                            בהנחיית <span className="text-lg sm:text-xl md:text-3xl font-medium text-[#6B5D59]">כוכי כהן הדר</span>
                         </p>
                     </motion.div>
 
@@ -685,14 +685,15 @@ export default function Home() {
                         {/* Image - left side */}
                         <div className="flex-shrink-0 mx-auto md:mx-0 order-1 md:order-2">
                             <div className="relative">
-                                <div className="w-48 md:w-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#C4A4A0]/20 border-2 border-white/50">
-                                    <img
-                                        src="/cochi.jpeg"
-                                        alt="כוכי כהן הדר"
-                                        className="w-full h-auto"
-                                    />
+                                <div className="w-48 md:w-60 rounded-2xl overflow-hidden border-0">
+                                    <div className="relative" style={{ mask: 'radial-gradient(ellipse at center, black 60%, transparent 85%)', WebkitMask: 'radial-gradient(ellipse at center, black 60%, transparent 85%)' }}>
+                                        <img
+                                            src="/Gemini_Generated_Image_84zm5584zm5584zm.png"
+                                            alt="כוכי כהן הדר"
+                                            className="w-full h-auto"
+                                        />
+                                    </div>
                                 </div>
-                                <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#C4A4A0]/10 to-[#A8B5A0]/10 pointer-events-none" />
                             </div>
                         </div>
                     </motion.div>
