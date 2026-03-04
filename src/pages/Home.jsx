@@ -219,36 +219,6 @@ export default function Home() {
                                 ease: "easeInOut"
                             }}
                         >
-                            <div className="flex items-center justify-center gap-2 md:gap-4 mb-2">
-                                <motion.div
-                                    className="h-[1px] w-8 md:w-12 bg-gradient-to-r from-transparent to-[#C4A4A0]"
-                                    animate={{ scaleX: [0.5, 1, 0.5], opacity: [0.5, 1, 0.5] }}
-                                    transition={{ duration: 3, repeat: Infinity }}
-                                />
-                                <span className="text-[#9A8A86] text-xs md:text-sm tracking-[0.2em] md:tracking-[0.3em] uppercase">בהנחיית</span>
-                                <motion.div
-                                    className="h-[1px] w-8 md:w-12 bg-gradient-to-l from-transparent to-[#C4A4A0]"
-                                    animate={{ scaleX: [0.5, 1, 0.5], opacity: [0.5, 1, 0.5] }}
-                                    transition={{ duration: 3, repeat: Infinity }}
-                                />
-                            </div>
-                            <motion.p
-                                className="text-xl sm:text-2xl md:text-4xl font-light text-[#6B5D59] tracking-wide"
-                                animate={{
-                                    textShadow: [
-                                        '0 0 20px rgba(196,164,160,0)',
-                                        '0 0 30px rgba(196,164,160,0.3)',
-                                        '0 0 20px rgba(196,164,160,0)',
-                                    ],
-                                }}
-                                transition={{
-                                    duration: 3,
-                                    repeat: Infinity,
-                                    ease: "easeInOut"
-                                }}
-                            >
-                                כוכי כהן הדר
-                            </motion.p>
                         </motion.div>
                     </motion.div>
 
@@ -273,8 +243,11 @@ export default function Home() {
                                 ease: "easeInOut"
                             }}
                         >
-                            תכנית בת 8 מפגשים לפריצות דרך בזוגיות 
+                            תכנית בת 8 מפגשים לפריצות דרך בזוגיות
                         </motion.p>
+                        <p className="text-base sm:text-lg md:text-2xl font-light text-[#9A8A86] mt-3 md:mt-4 tracking-wide">
+                            בהנחיית כוכי כהן הדר
+                        </p>
                     </motion.div>
 
                     <motion.div variants={fadeInUp}>
@@ -712,11 +685,11 @@ export default function Home() {
                         {/* Image - left side */}
                         <div className="flex-shrink-0 mx-auto md:mx-0 order-1 md:order-2">
                             <div className="relative">
-                                <div className="w-48 h-48 md:w-56 md:h-56 rounded-2xl overflow-hidden shadow-2xl shadow-[#C4A4A0]/20 border-2 border-white/50">
+                                <div className="w-48 md:w-60 rounded-2xl overflow-hidden shadow-2xl shadow-[#C4A4A0]/20 border-2 border-white/50">
                                     <img
-                                        src="/cochi.jpg"
+                                        src="/cochi.jpeg"
                                         alt="כוכי כהן הדר"
-                                        className="w-full h-[180%] object-cover object-top"
+                                        className="w-full h-auto"
                                     />
                                 </div>
                                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#C4A4A0]/10 to-[#A8B5A0]/10 pointer-events-none" />
