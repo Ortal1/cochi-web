@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Heart, Sparkles, Users, Clock, Mail, Phone, User, ChevronDown, Star, Award, TrendingUp } from 'lucide-react';
+import { Heart, Sparkles, Users, Clock, Mail, Phone, User, ChevronDown, Star, Award, TrendingUp, BookOpen, GraduationCap } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -625,6 +625,21 @@ export default function Home() {
                         <div className="space-y-4 flex-1 order-2 md:order-1">
                             {[
                                 {
+                                    icon: Award,
+                                    text: "מנחה, מנטורית ומאמנת בכירה לשיטת סאטיה מבית אימושיין.",
+                                    color: "from-[#C4A4A0] to-[#A8B5A0]"
+                                },
+                                {
+                                    icon: GraduationCap,
+                                    text: "תואר ראשון במדעי המדינה מאונ' בר אילן.",
+                                    color: "from-[#A8B5A0] to-[#B39490]"
+                                },
+                                {
+                                    icon: BookOpen,
+                                    text: "לימודי תואר שני בתורת הספרות באונ' תל אביב.",
+                                    color: "from-[#B39490] to-[#C4A4A0]"
+                                },
+                                {
                                     icon: TrendingUp,
                                     text: "מובילה תהליכי טרנספורמציה והתפתחות למעלה מ-20 שנה.",
                                     color: "from-[#C4A4A0] to-[#B39490]"
@@ -633,11 +648,6 @@ export default function Home() {
                                     icon: Star,
                                     text: "כ-40,000 שעות אימון, חלק ניכר מהן בתחום זוגיות ומערכות יחסים.",
                                     color: "from-[#A8B5A0] to-[#98A590]"
-                                },
-                                {
-                                    icon: Award,
-                                    text: "מנטורית בכירה להתפתחות מקצועית באימון.",
-                                    color: "from-[#C4A4A0] to-[#A8B5A0]"
                                 },
                                 {
                                     icon: Users,
