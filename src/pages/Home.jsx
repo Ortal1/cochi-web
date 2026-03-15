@@ -636,7 +636,7 @@ export default function Home() {
                                 },
                                 {
                                     icon: BookOpen,
-                                    text: "לימודי תואר שני בתורת הספרות באונ' תל אביב.",
+                                    text: "לימודי תואר שני בחוג לתורת הספרות הכללית באונ' תל אביב.",
                                     color: "from-[#B39490] to-[#C4A4A0]"
                                 },
                                 {
