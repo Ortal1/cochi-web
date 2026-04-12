@@ -66,6 +66,10 @@ export default function Home() {
             });
 
             if (response.ok) {
+                // Track lead conversion in Meta Pixel
+                if (typeof fbq === 'function') {
+                    fbq('track', 'Lead');
+                }
                 setSubmitted(true);
                 setFormData({ name: '', phone: '', email: '' });
             } else {
