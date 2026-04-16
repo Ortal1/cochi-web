@@ -763,37 +763,7 @@ export default function Home() {
                         >
                             ברוכים תהיו במסע הזה.
                         </motion.p>
-                        <motion.p
-                            className="text-2xl md:text-4xl font-semibold bg-gradient-to-l from-[#C4A4A0] to-[#A8B5A0] bg-clip-text text-transparent pt-2 md:pt-4"
-                            animate={{
-                                scale: [1, 1.05, 1],
-                            }}
-                            transition={{
-                                duration: 3,
-                                repeat: Infinity,
-                                ease: "easeInOut"
-                            }}
-                        >
-                            18/5/26.
-                        </motion.p>
-                        <motion.p
-                            className="text-lg md:text-2xl text-[#7A706C] font-light"
-                            whileHover={{ scale: 1.02 }}
-                        >
-                            17:30-20:30
-                        </motion.p>
-                        <motion.p
-                            className="text-lg md:text-2xl text-[#7A706C] font-light"
-                            whileHover={{ scale: 1.02 }}
-                        >
-                            My campus
-                        </motion.p>
-                        <motion.p
-                            className="text-base md:text-lg text-[#9A8A86] font-light"
-                            whileHover={{ scale: 1.02 }}
-                        >
-                            לח"י 21, בני ברק
-                        </motion.p>
+
                     </motion.div>
                 </motion.div>
             </section>
